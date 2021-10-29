@@ -1,1 +1,0 @@
-<a href="registration.jsp">Register</a>

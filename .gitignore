@@ -1,0 +1,7 @@
+# Ignore all folders except src
+/*/
+!/src/
+
+# Ignore all hidden files except .gitignore
+.*
+!.gitignore
