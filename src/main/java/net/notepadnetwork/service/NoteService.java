@@ -1,9 +1,9 @@
-package org.perscholas.service;
-
-import org.perscholas.model.Note;
+package net.notepadnetwork.service;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import net.notepadnetwork.model.Note;
 
 public class NoteService {
 

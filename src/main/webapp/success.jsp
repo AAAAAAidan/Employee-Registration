@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-<%@ page import="org.perscholas.model.*" %>
+<%@ page import="net.notepadnetwork.model.*" %>
 <html>
   <head>
     <title>Success Page</title>
@@ -15,7 +15,7 @@
       }
     </style>
   </head>
-  <jsp:useBean id="userBean" class="org.perscholas.model.Employee" scope="request"></jsp:useBean>
+  <jsp:useBean id="userBean" class="net.notepadnetwork.model.Employee" scope="request"></jsp:useBean>
   <body>
     <% String designation = request.getParameter("designation");
        if (designation.equals("1")) { %>

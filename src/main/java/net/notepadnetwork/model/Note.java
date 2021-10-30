@@ -1,4 +1,4 @@
-package org.perscholas.model;
+package net.notepadnetwork.model;
 
 public class Note {
 

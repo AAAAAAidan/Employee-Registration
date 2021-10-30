@@ -1,4 +1,4 @@
-package org.perscholas.servlet;
+package net.notepadnetwork.servlet;
 
 import java.io.IOException;
 

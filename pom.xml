@@ -4,11 +4,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>org.perscholas</groupId>
-  <artifactId>employeeregistration</artifactId>
+  <artifactId>notepadnetwork</artifactId>
   <version>0.0.1</version>
   <packaging>war</packaging>
 
-  <name>Employee Registration</name>
+  <name>Notepad Network</name>
   <description>A small J2EE application.</description>
 
   <properties>
@@ -18,21 +18,20 @@
 
   <dependencies>
     <dependency>
-      <groupId>javax</groupId>
-      <artifactId>javaee-web-api</artifactId>
-      <version>8.0.1</version>
-      <scope>provided</scope>
-    </dependency>
-    <dependency>
       <groupId>javax.servlet</groupId>
       <artifactId>javax.servlet-api</artifactId>
       <version>4.0.1</version>
       <scope>provided</scope>
     </dependency>
+    <dependency>
+      <groupId>javax.servlet</groupId>
+      <artifactId>jstl</artifactId>
+      <version>1.2</version>
+    </dependency>
   </dependencies>
 
   <build>
-    <finalName>employeeregistration</finalName>
+    <finalName>notepadnetwork</finalName>
   </build>
 
 </project>

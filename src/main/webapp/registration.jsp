@@ -3,7 +3,7 @@
   <head>
     <title>Registration Page</title>
   </head>
-  <jsp:useBean id="userBean" class="org.perscholas.model.Employee" scope="request"></jsp:useBean>
+  <jsp:useBean id="userBean" class="net.notepadnetwork.model.Employee" scope="request"></jsp:useBean>
   <jsp:setProperty name="userBean" property="*" />
   <% if (request.getParameter("register") != null) { %>
     <jsp:forward page="success.jsp">
@@ -58,7 +58,7 @@
           </td>
         </tr>
         <tr>
-          <td colspant="2">
+          <td colspan="2">
             <input type="submit" value="Register" name="register" />
           </td>
         </tr>
