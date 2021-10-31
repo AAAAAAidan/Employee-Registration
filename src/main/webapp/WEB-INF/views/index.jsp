@@ -1,24 +1,9 @@
-<%@ include file="../fragments/ibumpedmyhead.jspf"%>
-<%@ include file="../fragments/myheadhurts.jspf"%>
+<%@ include file="../fragments/header.jspf"%>
 
 <div>
-  <h4>Register</h4>
-  <form>
-    <table action="/employee" method="POST">
-      <tr>
-        <td>Title</td>
-        <td><input type="text" name="title"></td>
-      </tr>
-      <tr>
-        <td>Description</td>
-        <td><input type="textarea" name="description"></td>
-      </tr>
-      <tr>
-        <td>Description</td>
-        <td><input type="text" name="signature"></td>
-      </tr>
-    </table>
-  </form>
+  <a href="notes">
+    <img src="static/damon.gif" alt="Damon Gant" />
+  </a>
 </div>
 
-<%@ include file="../fragments/watchoutformyfoot.jspf"%>
+<%@ include file="../fragments/footer.jspf"%>

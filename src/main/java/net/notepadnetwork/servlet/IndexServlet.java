@@ -8,12 +8,12 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-@WebServlet("/")
+@WebServlet("/index")
 public class IndexServlet extends HttpServlet {
 
   protected void doGet(HttpServletRequest request, HttpServletResponse response)
       throws ServletException, IOException {
-    System.out.println("GET /");
+    System.out.println("GET /index");
     request.getRequestDispatcher("/WEB-INF/views/index.jsp").forward(request, response);
   }
 

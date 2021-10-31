@@ -9,6 +9,11 @@ public class NoteService {
 
   private static List<Note> notes = new ArrayList<Note>();
 
+  public Note get(int index) {
+    System.out.println("Getting note #" + index +  "!");
+    return notes.get(index);
+  }
+
   public List<Note> getAll() {
     System.out.println("Getting all notes!");
     return notes;
